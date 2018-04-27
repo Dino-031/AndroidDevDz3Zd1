@@ -22,11 +22,11 @@ public class TasksRepository {
 		return sInstance;
 	}
 
-	public void save(Task task){
-		mDatabase.save(task);
+	public void addTask(Task task){
+		mDatabase.addTask(task);
 	}
 
 	public List<Task> getTasks(){
-		return mDatabase.getTask	s();
+		return mDatabase.getTasks();
 	}
 }

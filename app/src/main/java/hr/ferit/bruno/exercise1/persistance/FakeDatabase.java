@@ -13,7 +13,7 @@ public class FakeDatabase {
 		mTasks = new ArrayList<>();
 	}
 
-	public void save(Task task) {
+	public void addTask(Task task) {
 		mTasks.add(task);
 	}
 
